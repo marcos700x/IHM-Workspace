@@ -1,0 +1,11 @@
+nav{
+    background-color: #140f1c76;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    z-index: 1;
+}
+.logo{
+    width: 200px;
+}
