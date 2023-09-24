@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xplora Juarez</title>
     
-    <script src="scripts/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" ></script>
     <script src="scripts/components.js" defer></script>
+    <script src="scripts/main.js" defer></script>
     <link rel="stylesheet" href="styles.css">
     
     <!-- Splide -->
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/themes/splide-sea-green.min.css">
     <!-- Bootstrap -->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
@@ -22,40 +22,7 @@
 </head>
 <body>
     <Navbar></Navbar>
-    <section class="splide p-0" aria-label="Carrousel Zone">
-        <div class="splide__track">
-              <ul class="splide__list">
-
-                  <li class="splide__slide">
-                    <div class="slide__overlay d-flex flex-column justify-content-center align-items-center p-5">
-                        <h1 class="display-1 fw-bold text-light">Un tributo a la mexicanidad</h1>
-                        <span class="fs-1 text-light">¡Conócelo!</span>
-                        <span class="fs-5 text-light name-place p-5">Monumento a la Mexicanidad</span>
-                    </div>
-                    <img src="assets/Monumento a la mexicanidad 1.webp" alt="">
-                  </li>
-
-                  <li class="splide__slide">
-                    <div class="slide__overlay d-flex flex-column justify-content-center align-items-center p-5">
-                        <h1 class="display-1 fw-bold text-light">Siente la magia de Samalayuca</h1>
-                        <span class="fs-1 text-light">Explora sus increibles dunas</span>
-                        <span class="fs-5 text-light name-place p-5">Dunas de Samalayuca</span>
-                    </div>
-                    <img src="assets/Dunas de Samalayuca 1.jpg" alt="">
-                  </li>
-
-                  <li class="splide__slide">
-                    <div class="slide__overlay d-flex flex-column justify-content-center align-items-center p-5">
-                        <h1 class="display-1 fw-bold text-light">Conoce nuestro legado revolucionario</h1>
-                        <span class="fs-1 text-light">Vive nuestra historia</span>
-                        <span class="fs-5 text-light name-place p-5">Museo de la Revolución en La Frontera</span>
-                    </div>
-                    <img src="assets/Museo de la revolucion en la frontera 1.jpg" alt="">
-                  </li>
-
-              </ul>
-        </div>
-      </section>
+    <Banner></Banner>
 
 </body>
 </html>
