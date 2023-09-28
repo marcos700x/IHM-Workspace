@@ -39,4 +39,13 @@ left: 0;
 box-icon{
     cursor: pointer;
     display: block;
+
+}
+.blob{
+    background-image: url('/assets/blob-pink.svg');
+    background-size: cover;
+}
+.bg-hexagons{
+    background-size: cover;
+    background-image: url('/assets/bg-hexagons.svg');
 }
