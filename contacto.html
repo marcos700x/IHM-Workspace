@@ -23,7 +23,7 @@
 
 <body>
     <!-- NAVBAR -->
-<nav class="p-3 d-flex flex-row justify-content-between align-items-center">
+<nav class="p-3 d-flex flex-row justify-content-between align-items-center position-static">
             <a href="../index.html" class="text-decoration-none navbar-brand">
                 <img class="logo" src="assets/logo.png" alt="">
             </a>
@@ -45,40 +45,63 @@
         </div>
 </nav>
 
-<div class="row vh-100 blob">
-<div class="col-8 d-flex justify-content-center align-items-start flex-column p-5">
-<h2 class="display-1 p-3 fw-bold">Contacto</h2>
-<span class="fs-4 px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus vero est dolor nam vel repellendus aut rerum quisquam veritatis!</span>
+<section>
+
+<div class="container">
+
+    <div class="d-flex justify-content-center align-items-start flex-column pb-5">
+        <h2 class="display-1 pt-5 fw-bold text-center w-100">Contacto</h2>
+        <span class="fs-4 pt-3 d-none d-md-block ">
+        Por favor, tómate un momento para compartir tus comentarios con nosotros. Ya sea que hayas disfrutado de un emocionante recorrido, una estancia agradable o tengas sugerencias para futuras mejoras, tu retroalimentación es valiosa. Nos ayuda a mantenernos enfocados en brindar un servicio de alta calidad y a adaptarnos a tus necesidades y deseos. 
+        </span>
+        </div>
+
+        <div class="row d-flex justify-content-center align-items-stretch ">
+
+            <div class="col-12 col-md-4 blurry-gradient-haikei-blue p-5 h-100">
+                <h2 class="text-light">¡Tu opinión es importante para nosotros!</h2>
+                <span class="text-light fs-4">Puedes compartir tus comentarios con nosotros por los siguientes medios:</span>
+                <ul class="list-unstyled mt-3 list-group list-group-flush ">
+                    <li class="list-group-item bg-transparent"><a href="" class="d-flex align-items-center text-decoration-none gap-2 text-light"><box-icon type='logo' name='twitter' size="md" color="#fff"></box-icon>Twitter</a></li>
+                    <li class="list-group-item bg-transparent"><a href="" class="d-flex align-items-center text-decoration-none gap-2 text-light"><box-icon type='logo' name='instagram' size="md" color="#fff"></box-icon>Instagram</a></li>
+                    <li class="list-group-item bg-transparent"><a href="" class="d-flex align-items-center text-decoration-none gap-2 text-light"><box-icon type='logo' name='facebook' size="md" color="#fff"></box-icon>Facebook</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 card rounded-0 col-md-8 ps-0 ">
+                <div class=" p-5 d-flex flex-column justify-content-around gap-3  h-100">
+                    <h2>Mandanos un mensaje!</h2>
+                    <div class="row g-2">
+                        <div class="col-md">
+                          <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInputGridName" placeholder="Correo Electronico">
+                            <label for="floatingInputGridName">Nombre(s)</label>
+                          </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingInputGridSurname" placeholder="Correo Electronico">
+                                <label for="floatingInputGridSurname">Apellido</label>
+                              </div>
+                        </div>
+                      </div>
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="Correo Electronico">
+                        <label for="floatingInputGrid">Correo Electronico</label>
+                      </div>
+                      <div class="form-floating">
+                        <textarea class="form-control" id="floatingInputGrid" placeholder="Tu mensaje"></textarea>
+                        <label for="floatingInputGrid">Tu mensaje</label>
+                      </div>
+                      <button class="btn btn-primary">Enviar</button>
+                    </div>
+            </div>
+        
+        </div>
+        
 </div>
-<div class="col-4 d-flex justify-content-center align-items-center  ">
-<div class="card shadow rounded p-5 d-flex flex-column gap-3">
-<h2>Formulario</h2>
-<div class="row g-2">
-    <div class="col-md">
-      <div class="form-floating">
-        <input type="text" class="form-control" id="floatingInputGrid" placeholder="Correo Electronico">
-        <label for="floatingInputGrid">Nombre(s)</label>
-      </div>
-    </div>
-    <div class="col-md">
-        <div class="form-floating">
-            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Correo Electronico">
-            <label for="floatingInputGrid">Apellido</label>
-          </div>
-    </div>
-  </div>
-  <div class="form-floating">
-    <input type="email" class="form-control" id="floatingInputGrid" placeholder="Correo Electronico">
-    <label for="floatingInputGrid">Correo Electronico</label>
-  </div>
-  <div class="form-floating">
-    <textarea class="form-control" id="floatingInputGrid" placeholder="Correo Electronico"></textarea>
-    <label for="floatingInputGrid">Tu mensaje</label>
-  </div>
-  <button class="btn btn-primary">Enviar</button>
-</div>
-</div>
-</div>
+
+</section>
 
   <!-- FOOTER -->
   <div class="container">

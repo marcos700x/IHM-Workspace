@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+section{
+    min-height: 100vh; /* mobile viewport bug fix */
+    background-color: #f5f7fb;
+}
+  
 nav{
     background-color: #140f1c76;
     height: 100px;
@@ -11,6 +16,7 @@ nav{
     backdrop-filter: blur(8px);
     z-index: 100;
     transition: transform .3s ease-in-out;
+    top: 0;
 }
 .logo{
     position: relative;
@@ -45,7 +51,6 @@ box-icon{
     background-image: url('/assets/blob-pink.svg');
     background-size: cover;
 }
-.bg-hexagons{
-    background-size: cover;
-    background-image: url('/assets/bg-hexagons.svg');
+.blurry-gradient-haikei-blue{
+    background-image: url('./assets/blurry-gradient-haikei.svg');
 }
