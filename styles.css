@@ -3,9 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url('./assets/bg-x-white.svg');
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
 section{
-    min-height: 100vh; /* mobile viewport bug fix */
-    background-color: #f5f7fb;
+    /* min-height: 100vh;  */
 }
   
 nav{
@@ -53,4 +58,32 @@ box-icon{
 }
 .blurry-gradient-haikei-blue{
     background-image: url('./assets/blurry-gradient-haikei.svg');
+}
+.bg-x-white{
+
+}
+@media (max-width: 570px) {
+    .splide__arrows{
+        display: none;
+    }
+}
+.masonry-container{
+    columns: 4;
+    gap: 15px;
+}
+.masonry-container img{
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+@media (max-width: 992px){
+    .masonry-container{
+        columns: 3;
+    }
+}
+@media (max-width: 768px){
+    .masonry-container{
+        columns: 2;
+    }
 }
