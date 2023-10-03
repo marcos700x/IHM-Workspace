@@ -12,6 +12,9 @@ body{
 section{
     /* min-height: 100vh;  */
 }
+.vh-80{
+height: 80vh;
+}
   
 nav{
     background-color: #140f1c76;
@@ -25,7 +28,7 @@ nav{
 }
 .logo{
     position: relative;
-    width: 30%;
+    width: 200px;
 }
 .splide__slide{
     height: 80vh;
@@ -86,4 +89,18 @@ box-icon{
     .masonry-container{
         columns: 2;
     }
+}
+.hero-nosotros{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('./assets/heros/nosotros.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.hero-rodadora{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('./assets/heros/la-rodadora.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.atraccionesHero{
+    background-position: center;
+    background-size: cover;
 }
