@@ -55,10 +55,7 @@ box-icon{
     display: block;
 
 }
-.blob{
-    background-image: url('/assets/blob-pink.svg');
-    background-size: cover;
-}
+
 .blurry-gradient-haikei-blue{
     background-image: url('./assets/blurry-gradient-haikei.svg');
 }
