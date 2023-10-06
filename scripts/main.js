@@ -14,6 +14,7 @@ window.onscroll = function (){
 
 }
 
+
 //Generador de paginas de atracciones
 let seleccionAtraccion = ""
 let atraccionEscogida = ""

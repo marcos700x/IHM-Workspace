@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xplora Juarez</title>
     
-    <script src="scripts/main.js" defer></script>
+    <script type="module"  src="scripts/main.js" defer></script>
     <link rel="stylesheet" href="styles.css">
     
     <!-- Splide -->
@@ -28,8 +28,8 @@
           <img class="logo" src="assets/logo.png" alt="">
       </a>
       <div class="d-flex flex-row g-3 align-items-center">
-        <a href="index.html" class="text-light fs-5 btn">Inicio</a>
           <div class="dropdown d-none d-md-flex">
+              <a href="index.html" class="text-light fs-5 btn">Inicio</a>
               <a class="btn fs-5 dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Destinos Turisticos
@@ -52,10 +52,9 @@
 
 <section>
 
-<div class="container">
-
+<div class="container py-5">
     <div class="d-flex justify-content-center align-items-start flex-column pb-5">
-        <h2 class="display-1 pt-5 fw-bold text-center w-100">Contacto</h2>
+        <h2 class="display-1 pt-5 mt-5 fw-bold text-center w-100">Contacto</h2>
         <span class="fs-4 pt-3 d-none d-md-block ">
         Por favor, tómate un momento para compartir tus comentarios con nosotros. Ya sea que hayas disfrutado de un emocionante recorrido, una estancia agradable o tengas sugerencias para futuras mejoras, tu retroalimentación es valiosa. Nos ayuda a mantenernos enfocados en brindar un servicio de alta calidad y a adaptarnos a tus necesidades y deseos. 
         </span>
@@ -110,7 +109,6 @@
 
   <!-- FOOTER -->
   <section class="bg-light">
-
     <div class="container">
         <footer class="row py-5  ">
             <div class="col-12 col-md-6 mb-3">
@@ -137,13 +135,15 @@
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Luis Ubaldo Flores Pineda</a>
                     </li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Marcos Casas Caldera</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Valelria Sosa Juarez</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Valeria Sosa Juarez</a></li>
                 </ul>
             </div>
-            <a href="condiciones.html" target="_blank" class="text-muted fs-5 w-100 text-start text-md-center text-decoration-none">Terminos y condiciones</span>
-                <a href="privacidad.html" target="_blank" class="text-muted fs-5 w-100 text-start text-md-center text-decoration-none">Politica de privacidad</span>
+            <a href="condiciones.html" target="_blank" class="text-muted w-100 text-start  text-decoration-none">Terminos y condiciones</span>
+                <a href="privacidad.html" target="_blank" class="text-muted w-100 text-start  text-decoration-none">Politica de privacidad</span>
+                    <span></span>
         </footer>
     </div>
 </section>
+
 </body>
 </html>

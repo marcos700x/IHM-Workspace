@@ -28,11 +28,12 @@
 <body>
     <!-- NAVBAR -->
     <nav class="p-3 d-flex flex-row justify-content-between align-items-center">
-        <a href="../index.html" class="text-decoration-none navbar-brand">
+        <a href="index.html" class="text-decoration-none navbar-brand">
             <img class="logo" src="assets/logo.png" alt="">
         </a>
         <div class="d-flex flex-row g-3 align-items-center">
-            <div class="dropdown d-none d-md-flex">
+
+            <div class="d-none d-md-flex">
                 <a class="btn fs-5 dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     Destinos Turisticos
@@ -50,7 +51,34 @@
                 <a href="contacto.html" class="text-light fs-5 btn">Contacto</a>
                 <a target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=lWO64WR6kkuq86fAIMPRj60mNkhm8nJOlLgX1CiPrX1UNkNDQVZGTVc3VzlVRzdKVTVRM1RFOU1CQy4u" class="text-light fs-5 btn">Retroalimentación</a>
             </div>
-        </div>
+            <div class="d-md-none">
+                <a class="btn fs-5 text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Destinos
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item inputAtraccion" href="atraccion.html">La Rodadora</a></li>
+                <li><a class="dropdown-item inputAtraccion" href="atraccion.html">Museo de la Revolución en La Frontera</a></li>
+                <li><a class="dropdown-item inputAtraccion" href="atraccion.html">Monumento a la Mexicanidad</a></li>
+                <li><a class="dropdown-item inputAtraccion" href="atraccion.html">La Casa de Juan Gabriel</a></li>
+                <li><a class="dropdown-item inputAtraccion" href="atraccion.html">Centro Cultural Paso del Norte</a></li>
+                <li><a class="dropdown-item inputAtraccion" href="atraccion.html">El Chamizal</a></li>
+                <li><a class="dropdown-item inputAtraccion" href="atraccion.html">Catedral de Nuestra Señora de Guadalupe</a></li>
+            </ul>
+            </div>
+            <div class="d-md-none">
+                <button class="btn fs-5  text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <box-icon name='menu' color="#fff" size="md"></box-icon>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="index.html" class=" btn dropdown-item">Inicio</a></li>
+                <li><a href="nosotros.html" class="  btn dropdown-item">Nosotros</a></li>
+                <li><a href="contacto.html" class="  btn dropdown-item">Contacto</a></li>
+                <li> <a target="_blank" href="https://forms.office.com/Pages /ResponsePage.aspx?id=lWO64WR6kkuq86fAIMPRj60mNkhm8nJOlLgX1CiPrX1UNkNDQVZGTVc3VzlVRzdKVTVRM1RFOU1CQy4u" class="btn dropdown-item">Retroalimentación</a></li>
+            </ul>
+            </div>
+
     </nav>
     <!-- BANNER -->
     <div class="splide banner p-0" aria-label="Carrousel Zone">
@@ -224,7 +252,6 @@
     </section>
     <!-- FOOTER -->
     <section class="bg-light">
-
     <div class="container">
         <footer class="row py-5  ">
             <div class="col-12 col-md-6 mb-3">
@@ -251,11 +278,12 @@
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Luis Ubaldo Flores Pineda</a>
                     </li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Marcos Casas Caldera</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Valelria Sosa Juarez</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Valeria Sosa Juarez</a></li>
                 </ul>
             </div>
-            <a href="condiciones.html" target="_blank" class="text-muted fs-5 w-100 text-start text-md-center text-decoration-none">Terminos y condiciones</span>
-                <a href="privacidad.html" target="_blank" class="text-muted fs-5 w-100 text-start text-md-center text-decoration-none">Politica de privacidad</span>
+            <a href="condiciones.html" target="_blank" class="text-muted w-100 text-start  text-decoration-none">Terminos y condiciones</a>
+                <a href="privacidad.html" target="_blank" class="text-muted w-100 text-start  text-decoration-none">Politica de privacidad</a>
+                <span class="text-muted w-100 text-star mt-5">Copyright © 2023 XploraJuarez.</span>
         </footer>
     </div>
 </section>
