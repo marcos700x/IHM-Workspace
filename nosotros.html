@@ -24,12 +24,12 @@
 <body>
     <!-- NAVBAR -->
     <nav class="p-3 d-flex flex-row justify-content-between align-items-center">
-      <a href="../index.html" class="text-decoration-none navbar-brand">
+      <a href="index.html" class="text-decoration-none navbar-brand">
           <img class="logo" src="assets/logo.png" alt="">
       </a>
       <div class="d-flex flex-row g-3 align-items-center">
-        <div class="dropdown d-none d-md-flex">
-            <a href="index.html" class="text-light fs-5 btn">Inicio</a>
+
+          <div class="d-none d-md-flex">
               <a class="btn fs-5 dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Destinos Turisticos
@@ -47,7 +47,34 @@
               <a href="contacto.html" class="text-light fs-5 btn">Contacto</a>
               <a target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=lWO64WR6kkuq86fAIMPRj60mNkhm8nJOlLgX1CiPrX1UNkNDQVZGTVc3VzlVRzdKVTVRM1RFOU1CQy4u" class="text-light fs-5 btn">Retroalimentación</a>
           </div>
-      </div>
+          <div class="d-md-none">
+              <a class="btn fs-5 text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Destinos
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item inputAtraccion" href="atraccion.html">La Rodadora</a></li>
+              <li><a class="dropdown-item inputAtraccion" href="atraccion.html">Museo de la Revolución en La Frontera</a></li>
+              <li><a class="dropdown-item inputAtraccion" href="atraccion.html">Monumento a la Mexicanidad</a></li>
+              <li><a class="dropdown-item inputAtraccion" href="atraccion.html">La Casa de Juan Gabriel</a></li>
+              <li><a class="dropdown-item inputAtraccion" href="atraccion.html">Centro Cultural Paso del Norte</a></li>
+              <li><a class="dropdown-item inputAtraccion" href="atraccion.html">El Chamizal</a></li>
+              <li><a class="dropdown-item inputAtraccion" href="atraccion.html">Catedral de Nuestra Señora de Guadalupe</a></li>
+          </ul>
+          </div>
+          <div class="d-md-none">
+              <button class="btn fs-5  text-light" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <box-icon name='menu' color="#fff" size="md"></box-icon>
+          </button>
+          <ul class="dropdown-menu">
+              <li><a href="index.html" class=" btn dropdown-item">Inicio</a></li>
+              <li><a href="nosotros.html" class="  btn dropdown-item">Nosotros</a></li>
+              <li><a href="contacto.html" class="  btn dropdown-item">Contacto</a></li>
+              <li> <a target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=lWO64WR6kkuq86fAIMPRj60mNkhm8nJOlLgX1CiPrX1UNkNDQVZGTVc3VzlVRzdKVTVRM1RFOU1CQy4u" class="btn dropdown-item">Retroalimentación</a></li>
+          </ul>
+          </div>
+
   </nav>
 
 <section class="vh-80 d-flex justify-content-center align-items-center hero-nosotros">
